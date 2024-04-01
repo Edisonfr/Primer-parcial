@@ -58,24 +58,24 @@ function agregarDestino() {
   agregarDestino();
   
   // Función para modificar el texto de un título (H2)
-  function modificarTitulo(seccionId, nuevoTexto) {
-    const seccion = document.getElementById(seccionId);
-    const titulo = seccion.querySelector("h2");
-    titulo.textContent = nuevoTexto;
-   }
+ /// function modificarTitulo(seccionId, nuevoTexto) {
+  ///  const seccion = document.getElementById(seccionId);
+  ///  const titulo = seccion.querySelector("h2");
+ ///   titulo.textContent = nuevoTexto;
+///   }
 
 
 
   
   // Función para eliminar una imagen de la sección "Super Promo"
-  function eliminarImagen(indice) {
-  const imagenes = document.querySelectorAll("section > img");
-  if (indice >= 0 && indice < imagenes.length) {
-    imagenes[indice].parentNode.removeChild(imagenes[indice]);
- }
-}
+ / //function eliminarImagen(indice) {
+ ///const imagenes = document.querySelectorAll("section > img");
+ ///if (indice >= 0 && indice < imagenes.length) {
+ ///  imagenes[indice].parentNode.removeChild(imagenes[indice]);
+ //}
+///}
   
-  // Ejemplo de uso de las funciones
+ /// Ejemplo de uso de las funciones
  
- modificarTitulo("ofertas", "¡Ofertas imperdibles para tu viaje soñado!");
- eliminarImagen(2); // Elimina la tercera imagen de la sección "Super Promo"
+///modificarTitulo("ofertas", "¡Ofertas imperdibles para tu viaje soñado!");
+ ///eliminarImagen(2); // Elimina la tercera imagen de la sección "Super Promo"
